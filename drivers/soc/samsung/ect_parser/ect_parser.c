@@ -18,6 +18,8 @@
 
 #define ARRAY_SIZE32(array)		((u32)ARRAY_SIZE(array))
 
+#define GPU_CUSTOM_MAX_CLOCK (1209000)
+
 /* Variable */
 
 static struct ect_info ect_list[];
