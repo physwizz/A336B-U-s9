@@ -1744,7 +1744,7 @@ static int init_domain(struct exynos_cpufreq_domain *domain,
 		domain->min_freq = max(domain->min_freq, val);
 
 	if (domain->id == 1) { // BIG
-		domain->boot_freq = 2400000;
+		domain->boot_freq = 2600000;
 	} else if (domain->id == 0) {
 		domain->boot_freq = 2002000;
 	}
